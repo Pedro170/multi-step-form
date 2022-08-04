@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Formulário</title>
+  <!-- links icons -->
+  <script src="https://kit.fontawesome.com/de94b6f5a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-form">
+    <div class="container-steps">
+      <h1 class="title">User Profile</h1>
+      <p class="info">
+        Intruções dos steps <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quod?
+      </p>
+
+      <div class="progressbar">
+        <div class="content-progress-step">
+          <div class="progress-step">
+            <i class="fas fa-user"></i>
+          </div>
+
+          <p>Username</p>
+          <span class="situation">Completed</span>
+        </div>
+
+        <span class="barra"></span>
+
+        <div class="content-progress-step">
+          <div class="progress-step">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+
+          <p>localization</p>
+          <span class="situation">In Progreess</span>
+        </div>
+
+        <span class="barra"></span>
+
+        <div class="content-progress-step">
+          <div class="progress-step">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+
+          <p>Date of Birth</p>
+          <span class="situation">In Progreess</span>
+        </div>
+
+        <span class="barra"></span>
+
+        <div class="content-progress-step">
+          <div class="progress-step">
+            <i class="fas fa-lock"></i>
+          </div>
+
+          <p>Verification</p>
+          <span class="situation">In Progreess</span>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/pedrosantos170/" class="fab fa-linkedin"></a>
+        <a href="https://github.com/Pedro170" class="fab fa-github"></a>
+        <a href=mailto:Joaosilva8882@gmail.com class="fas fa-envelope"></a>
+      </div>
+    </div>
+
+    <div class="form">
+      <h2>Registre-se</h2>
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username">
+        </div>
+
+        <div class="input-group">
+          <label for="position">Position</label>
+          <input type="text" name="position" id="position">
+        </div>
+        <div class="btn"><button class="btn-next width-50 ml-auto">Next</button></div>
+      </div>
+
+      <div class="form-step ">
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="number" name="phone" id="phone">
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="btn">
+          <button class="btn-prev">Previous</button>
+          <button class="btn-next">Next</button>
+        </div>
+      </div>
+
+      <div class="form-step ">
+        <div class="input-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob">
+        </div>
+
+        <div class="input-group">
+          <label for="ID">National ID</label>
+          <input type="number" name="ID" id="ID">
+        </div>
+        <div class="btn">
+          <button class="btn-prev">Previous</button>
+          <button class="btn-next">Next</button>
+        </div>
+      </div>
+
+      <div class="form-step ">
+        <div class="input-group">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password">
+        </div>
+
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" name="confirmPassword" id="confirmPassword">
+        </div>
+        <div class="btn">
+          <button class="btn-prev">Previous</button>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
